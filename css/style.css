@@ -1,5 +1,6 @@
 body{
 	background-color: #efefef;
+	font-family: 'open_sansregular';
 }
 .site-container{
 	max-width: 1366px;
@@ -97,4 +98,14 @@ body{
 }
 .showmMenu{
 	left:0px;
+}
+.vmenu{
+}
+.vmenu .vmenulist{
+	color: white;
+	font-weight: bold;
+	padding: 16px 30px;
+	font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #c78484;
 }

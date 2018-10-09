@@ -46,15 +46,15 @@
       </header>
       <section class="flex-section" id="flex-sec">
         <nav class="flex-nav"  id="fixed-menu">
-          <div class="menu">
-            <div class="menulist">Imaging Techniques</div>
-            <div class="menulist">Bi-RadsLexicon</div>
-            <div class="menulist">Bi-Rads Assessment Categories</div>
-            <div class="menulist">ReportOrganisation</div>
-            <div class="menulist">Breast Interventions</div>
-            <div class="menulist">TeachingCases</div>
-            <div class="menulist">Literature & Giudaelines</div>
-            <div class="menulist">SelfAssessment</div>
+          <div class="vmenu">
+            <div class="vmenulist">Imaging Techniques</div>
+            <div class="vmenulist">Bi-RadsLexicon</div>
+            <div class="vmenulist">Bi-Rads Assessment Categories</div>
+            <div class="vmenulist">ReportOrganisation</div>
+            <div class="vmenulist">Breast Interventions</div>
+            <div class="vmenulist">TeachingCases</div>
+            <div class="vmenulist">Literature & Giudaelines</div>
+            <div class="vmenulist">SelfAssessment</div>
           </div>
           <div class="mobile-menu-icon">
             <img src="images/mobile-menu.png" id="mobile-menu-btn" alt="" onclick="mobilemenu()">
