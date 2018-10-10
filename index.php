@@ -34,6 +34,9 @@
   <body>
     <!-- site container -->
     <div class="site-container">
+      <div class="mobile-menu-icon" id="mobilemenubtn">
+            <img src="images/mobile-menu.png" id="mobile-menu-btn" alt="" onclick="mobilemenu()">
+      </div>
       <header class="flex-header">
         <div class="leftlogo">
           <img src="images/logo.png" alt="BISI Logo" id="bisi-logo">
@@ -47,17 +50,53 @@
       <section class="flex-section" id="flex-sec">
         <nav class="flex-nav"  id="fixed-menu">
           <div class="vmenu">
-            <div class="vmenulist">Imaging Techniques</div>
-            <div class="vmenulist">Bi-RadsLexicon</div>
-            <div class="vmenulist">Bi-Rads Assessment Categories</div>
-            <div class="vmenulist">ReportOrganisation</div>
-            <div class="vmenulist">Breast Interventions</div>
-            <div class="vmenulist">TeachingCases</div>
-            <div class="vmenulist">Literature & Giudaelines</div>
-            <div class="vmenulist">SelfAssessment</div>
-          </div>
-          <div class="mobile-menu-icon">
-            <img src="images/mobile-menu.png" id="mobile-menu-btn" alt="" onclick="mobilemenu()">
+            <div class="vmenulist hassubmenu"><a href="">Imaging Techniques</a>
+              <div class="vsubmenu">
+                <div class="vsubmenuitem"><a href="">Mammography</a></div>
+                <div class="vsubmenuitem"><a href="">Ultra Sound</a></div>
+                <div class="vsubmenuitem"><a href="">Breast MRI</a></div>
+                <div class="vsubmenuitem"><a href="">Nuclear Medicine</a></div>  
+              </div>
+            </div>
+            <div class="vmenulist hassubmenu"><a href="">Bi-RadsLexicon</a>
+              <div class="vsubmenu">
+                <div class="vsubmenuitem"><a href="">Mammography</a></div>
+                <div class="vsubmenuitem"><a href="">Ultra Sound</a></div>
+                <div class="vsubmenuitem"><a href="">Breast MRI</a></div> 
+              </div>
+            </div>
+            <div class="vmenulist hassubmenu"><a href="">Bi-Rads Assessment Categories</a>
+              <div class="vsubmenu">
+                <div class="vsubmenuitem"><a href="">Mammography</a></div>
+                <div class="vsubmenuitem"><a href="">Ultra Sound</a></div>
+                <div class="vsubmenuitem"><a href="">Breast MRI</a></div> 
+              </div>
+            </div>
+            <div class="vmenulist hassubmenu"><a href="">ReportOrganisation</a>
+              <div class="vsubmenu">
+                <div class="vsubmenuitem"><a href="">Mammography</a></div>
+                <div class="vsubmenuitem"><a href="">Ultra Sound</a></div>
+                <div class="vsubmenuitem"><a href="">Breast MRI</a></div> 
+              </div>
+            </div>
+            <div class="vmenulist hassubmenu"><a href="">Breast Interventions</a>
+              <div class="vsubmenu">
+                <div class="vsubmenuitem"><a href="">Biopsy</a></div>
+                <div class="vsubmenuitem"><a href="">Preoperative Localisation</a></div>
+                <div class="vsubmenuitem"><a href="">Marker Clip Deployment</a></div> 
+              </div>
+            </div>
+            <div class="vmenulist hassubmenu"><a href="">TeachingCases</a>
+              <div class="vsubmenu">
+                <div class="vsubmenuitem"><a href="">Mass</a></div>
+                <div class="vsubmenuitem"><a href="">Architectural Distortion</a></div>
+                <div class="vsubmenuitem"><a href="">Calcifilcations</a></div>
+                <div class="vsubmenuitem"><a href="">Asymmetries</a></div>
+                <div class="vsubmenuitem"><a href="">Miscellaneous</a></div>  
+              </div>
+            </div>
+            <div class="vmenulist"><a href="">Literature & Giudaelines</a></div>
+            <div class="vmenulist"><a href="">SelfAssessment</a></div>
           </div>
         </nav>
         <div class="flex-page" style="background-color: cyan; height: 800px;" id="pagearea">

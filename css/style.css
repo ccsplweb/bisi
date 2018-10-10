@@ -38,6 +38,7 @@ body{
 	flex: 0 0 300px;
 	background-color: #be1581;
 	height: 100vh;
+	overflow-y: auto;
 }
 .flex-page{
 	flex-grow: 1;
@@ -55,12 +56,14 @@ body{
 .mobile-menu-icon { 
 	display: none;
 }
-
+.showmMenuBtn{
+	left: 299px !important;
+}
 @media only screen and (max-width: 900px) {
 	.flex-nav{
 		position: fixed;
 		left: -301px;
-		top: 0;
+		top: -1px;
 		width: 300px;
 		-webkit-transition-property: left;
 	    -webkit-transition-duration: 0.25s;
@@ -73,12 +76,20 @@ body{
 	}
 	.mobile-menu-icon{ 
 			display: block;
-		    position: absolute;
+		    position: fixed;
 		    top: 0;
-		    right: -39px;
+		    left: 0px;
 		    width: 40px;
 		    height: 40px;
 		    cursor: pointer;
+		    -webkit-transition-property: left;
+		    -webkit-transition-duration: 0.25s;
+		    -webkit-transition-delay: 0s;
+		    -webkit-transition-timing-function: linear;
+		    transition-property: left;
+		    transition-duration: 0.25s;
+		    transition-delay: 0s;
+		    transition-timing-function: linear;
 	}
 }
 @media only screen and (max-width: 550px) {
@@ -101,11 +112,23 @@ body{
 }
 .vmenu{
 }
-.vmenu .vmenulist{
+.vmenu .vmenulist a{
+	display: block;
 	color: white;
 	font-weight: bold;
 	padding: 16px 30px;
 	font-size: 14px;
     letter-spacing: 1px;
     border-bottom: 1px solid #c78484;
+}
+.vmenu .vmenulist a{
+	color: white;
+	text-decoration: none;
+}
+.vsubmenu{
+	background-color: #6b0044;
+	display: none;
+}
+.displaySubmenu{
+	display: block;
 }

@@ -35,12 +35,33 @@ function fixNav() {
 var mobileMenuStatus = 0;
 function mobilemenu(){
 	var e = document.getElementById("fixed-menu");
+	var btn = document.getElementById("mobilemenubtn");
+
 	if(mobileMenuStatus == 0){
 		
 		e.classList.add("showmMenu");
+		btn.classList.add("showmMenuBtn");
 		mobileMenuStatus = 1;
 	}else{
 		e.classList.remove("showmMenu");
+		btn.classList.remove("showmMenuBtn");
 		mobileMenuStatus = 0;
 	}
+}
+
+//open submenu
+
+var btns = document.getElementsByClassName("hassubmenu");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    event.preventDefault();
+    if(this.getElementsByTagName('div')[0].className == "vsubmenu displaySubmenu"){
+    	this.getElementsByTagName('div')[0].className = "vsubmenu";
+    }
+    else if(this.getElementsByTagName('div')[0].className == "vsubmenu"){
+    	this.getElementsByTagName('div')[0].className += " displaySubmenu";
+    }
+
+    
+  }, true);
 }
