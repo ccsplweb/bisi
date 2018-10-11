@@ -2,6 +2,9 @@ body{
 	background-color: #efefef;
 	font-family: 'open_sansregular';
 }
+@media only screen and (max-width: 400px) {
+	background-color: white;
+}
 .site-container{
 	max-width: 1366px;
 	background-color: white;
@@ -39,6 +42,7 @@ body{
 	background-color: #be1581;
 	height: 100vh;
 	overflow-y: auto;
+	z-index: 9999;
 }
 .flex-page{
 	flex-grow: 1;
@@ -55,6 +59,7 @@ body{
 }
 .mobile-menu-icon { 
 	display: none;
+	z-index: 9999;
 }
 .showmMenuBtn{
 	left: 299px !important;
@@ -132,3 +137,229 @@ body{
 .displaySubmenu{
 	display: block;
 }
+
+
+/*kanika css*/
+.homeBannerk07
+{
+background: url(../images/homebanner.jpg);
+height: 250px;
+padding: 0px 5%;
+background-size: cover;
+}
+
+.homeBannerk07 h1
+{
+font-size: 41px;
+font-family: 'rubikregular';
+color: rgb(255, 255, 255);
+line-height: 1.2;
+font-weight: bold;
+text-shadow: 2px 4px 1px #333333c9;
+width: 100%;
+}
+
+.bisi_heading_home
+{
+text-align: center;
+font-size: 20px;
+margin: 29px 0px 0px 0px;
+}
+.bisi_heading_home h1
+{
+font-size: 31px;
+font-family: 'rubikregular';
+}
+
+.bisi_heading_home img
+{
+vertical-align: text-top;
+}
+
+
+
+.mid-home-bisi-objective-blogs .p-2 .count
+{
+padding: 0px 16px;
+background-color: #b61b5f;
+display: inline-block;
+position: relative;
+top: -18px;
+left: -32px;
+border: 7px solid #fff;
+color: #fff;
+font-weight: bold;
+font-size: 35px;
+font-style: italic;
+}
+
+.mid-home-bisi-objective-blogs .p-2
+{
+background: #e8e8e8;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.mid-home-bisi-objective-blogs .p-2 .text
+{
+background: #e8e8e8;
+padding-left: 6%;
+color: #444444;
+padding-bottom: 2%;
+}
+
+.bisi_midhome
+{
+padding: 0 4% 0 6%;
+}
+
+.flex-container-part
+{
+display: flex;
+-ms-flex-pack: justify!important;
+justify-content: space-between!important;
+
+}
+
+.footer_k007 h1
+{
+color: #b21d62;
+font-size: 22px;
+font-family: 'rubikregular';
+position: relative;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.footer_k007 h1:after
+{
+position: absolute;
+content: "";
+width: 59px;
+height: 2px;
+background-color: #b21d62;
+bottom: -7px;
+left: 0;
+}
+
+.footer_k007 ul 
+{
+padding: 0px;
+}
+
+
+.footer_k007 ul li 
+{
+list-style: none;
+}
+
+.footer_k007 ul li a
+{
+text-decoration: none;
+color: #323232;
+font-size: 17px;
+}
+
+.footer_k007 ul li a i
+{
+color: #b21d62;
+}
+
+.footer_k007
+{
+background: whitesmoke;
+padding: 24px 23px;
+border-bottom: 10px solid #be1581;
+}
+
+.footer_registor_007
+{
+text-decoration: none;
+color: #323232;
+font-size: 20px;
+font-weight: 500;
+}
+
+.footer_copyright_007
+{
+text-align: center;
+font-size: 17px;
+margin-top: 15px;
+line-height: 25px;
+color: #323232;
+}
+
+.color_pink007
+{
+color: #be1581;
+}
+@media screen and (max-width: 768px) 
+{
+.flex-container-part
+{
+  display: initial !important;
+}
+
+.footer_copyright_007 img
+{
+  width: 200px;
+  height: 1px;
+}
+
+.mid-home-bisi-objective-blogs .p-2 .count 
+{
+  left: -12px !important;
+  font-size: 25px;
+}
+.footer_k007
+{
+  padding: 24px 10px;
+}
+
+.bisi_midhome
+{
+  padding: 0px 15px;
+}
+
+.homeBannerk07 h1
+{
+  font-size: 33px;
+}
+}
+
+.footer_registor_007 .color_pink007 
+{
+color: #be1581;
+word-wrap: break-word;
+}
+
+@media(max-width: 400px)
+{
+	body
+	{
+		/*background-color: #fff;*/
+		font-family: 'open_sansregular';
+	}
+	.flex-section 
+	{
+	    display: block;
+	    flex-flow: row nowrap;
+	}
+}
+
+@media(min-width:768px) and (max-width: 1200px)
+{
+	.footer_copyright_007 img
+	{
+		width: 400px;
+    	height: 1px;
+	}
+}
+/*kanika css end*/
+
+/*vishwajeet css start*/
+#vaddress{
+	font-size: 17px;
+	font-weight: 600;
+}
+/*vishwajeet css end*/
